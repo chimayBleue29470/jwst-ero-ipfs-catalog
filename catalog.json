@@ -1,0 +1,168 @@
+{
+  "name": "JWST ERO MIRI IPFS Catalog",
+  "description": "Decentralized catalog of James Webb Space Telescope Early Release Observations — MIRI Level 3 science images pinned on IPFS",
+  "version": "1.0.0",
+  "created": "2025-04-21",
+  "root_cid": "QmTU1hFS3487M9PsKNGy2LNSnDLpSDUZV2DnHepW55JDcN",
+  "source": "https://archive.stsci.edu/hlsp/jwst-ero",
+  "license": "CC BY 4.0",
+  "reference": "Pontoppidan et al. 2022 — https://ui.adsabs.harvard.edu/abs/2022ApJ...936L..14P/abstract",
+  "doi": "10.17909/67ft-nb86",
+  "instrument": "MIRI",
+  "pipeline_level": 3,
+  "file_type": "i2d.fits",
+  "targets": [
+    {
+      "name": "Carina Nebula",
+      "object": "NGC 3324",
+      "type": "Nebula",
+      "program_id": 2731,
+      "files": [
+        {
+          "filter": "F770W",
+          "wavelength_um": 7.7,
+          "filename": "hlsp_jwst-ero_jwst_miri_carina_f770w_v1_i2d.fits",
+          "size_bytes": 117504000,
+          "cid": "bafybeigm75qgot6abczctixo6u5iidb7f6zdytxr2yyy2hbqwymwywtz34",
+          "gateway": "https://ipfs.io/ipfs/bafybeigm75qgot6abczctixo6u5iidb7f6zdytxr2yyy2hbqwymwywtz34"
+        },
+        {
+          "filter": "F1130W",
+          "wavelength_um": 11.3,
+          "filename": "hlsp_jwst-ero_jwst_miri_carina_f1130w_v1_i2d.fits",
+          "size_bytes": 117504000,
+          "cid": "bafybeieguxnhnjx5wvvkpt5kn2dhxb4vj4bioxk7viotzshpu54az4epku",
+          "gateway": "https://ipfs.io/ipfs/bafybeieguxnhnjx5wvvkpt5kn2dhxb4vj4bioxk7viotzshpu54az4epku"
+        },
+        {
+          "filter": "F1280W",
+          "wavelength_um": 12.8,
+          "filename": "hlsp_jwst-ero_jwst_miri_carina_f1280w_v1_i2d.fits",
+          "size_bytes": 117504000,
+          "cid": "bafybeicpfd3xnfnfe7wj6oopt24uxuxucl5cbe6vqm7seiqanonsxkklhe",
+          "gateway": "https://ipfs.io/ipfs/bafybeicpfd3xnfnfe7wj6oopt24uxuxucl5cbe6vqm7seiqanonsxkklhe"
+        },
+        {
+          "filter": "F1800W",
+          "wavelength_um": 18.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_carina_f1800w_v1_i2d.fits",
+          "size_bytes": 117504000,
+          "cid": "bafybeigqfna2kgycgaslr7373eba76mpuiomjw6vu2uo3anu6zojfpmrzi",
+          "gateway": "https://ipfs.io/ipfs/bafybeigqfna2kgycgaslr7373eba76mpuiomjw6vu2uo3anu6zojfpmrzi"
+        }
+      ]
+    },
+    {
+      "name": "Southern Ring Nebula",
+      "object": "NGC 3132",
+      "type": "Planetary Nebula",
+      "program_id": 2733,
+      "files": [
+        {
+          "filter": "F770W",
+          "wavelength_um": 7.7,
+          "filename": "hlsp_jwst-ero_jwst_miri_ngc3132_f770w_v1_i2d.fits",
+          "size_bytes": 58720256,
+          "cid": "bafybeic7bkyvy3tghgjj6qnrvgyno5ndgatteh7xlxjiasnars2ds2s7ly",
+          "gateway": "https://ipfs.io/ipfs/bafybeic7bkyvy3tghgjj6qnrvgyno5ndgatteh7xlxjiasnars2ds2s7ly"
+        },
+        {
+          "filter": "F1130W",
+          "wavelength_um": 11.3,
+          "filename": "hlsp_jwst-ero_jwst_miri_ngc3132_f1130w_v1_i2d.fits",
+          "size_bytes": 58720256,
+          "cid": "bafybeiayvqgivmrkmj42hsttd226ez5idxkhtzagtaddl47qznuqj7aoku",
+          "gateway": "https://ipfs.io/ipfs/bafybeiayvqgivmrkmj42hsttd226ez5idxkhtzagtaddl47qznuqj7aoku"
+        },
+        {
+          "filter": "F1280W",
+          "wavelength_um": 12.8,
+          "filename": "hlsp_jwst-ero_jwst_miri_ngc3132_f1280w_v1_i2d.fits",
+          "size_bytes": 58720256,
+          "cid": "bafybeicxbesppftrqdcmi5hsx2dlzg26p2qxsuj6sq5la7gaw5ot6igjl4",
+          "gateway": "https://ipfs.io/ipfs/bafybeicxbesppftrqdcmi5hsx2dlzg26p2qxsuj6sq5la7gaw5ot6igjl4"
+        },
+        {
+          "filter": "F1800W",
+          "wavelength_um": 18.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_ngc3132_f1800w_v1_i2d.fits",
+          "size_bytes": 58720256,
+          "cid": "bafybeifbku6au633mvqycthumc375stounzmg55gahiaxomlw27hqntt3i",
+          "gateway": "https://ipfs.io/ipfs/bafybeifbku6au633mvqycthumc375stounzmg55gahiaxomlw27hqntt3i"
+        }
+      ]
+    },
+    {
+      "name": "Stephan's Quintet",
+      "object": "HCG 92",
+      "type": "Galaxy group",
+      "program_id": 2732,
+      "files": [
+        {
+          "filter": "F770W",
+          "wavelength_um": 7.7,
+          "filename": "hlsp_jwst-ero_jwst_miri_stephansquintet_f770w_v1_i2d.fits",
+          "size_bytes": 135266304,
+          "cid": "bafybeic7u7jp7ipso4wxzmlkgpqujc3cjaktnjnhdwfksaqz7g26dqyauy",
+          "gateway": "https://ipfs.io/ipfs/bafybeic7u7jp7ipso4wxzmlkgpqujc3cjaktnjnhdwfksaqz7g26dqyauy"
+        },
+        {
+          "filter": "F1000W",
+          "wavelength_um": 10.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_stephansquintet_f1000w_v1_i2d.fits",
+          "size_bytes": 135266304,
+          "cid": "bafybeig2qjencntfqsruqfclfdcvnfrxnqmwrxlhteyaoeunecgmkbqn6u",
+          "gateway": "https://ipfs.io/ipfs/bafybeig2qjencntfqsruqfclfdcvnfrxnqmwrxlhteyaoeunecgmkbqn6u"
+        },
+        {
+          "filter": "F1500W",
+          "wavelength_um": 15.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_stephansquintet_f1500w_v1_i2d.fits",
+          "size_bytes": 152043520,
+          "cid": "bafybeiccz3vrmgg3musuwuph7ff6vvhetmfyrbfvxdxr42akyam5ftwome",
+          "gateway": "https://ipfs.io/ipfs/bafybeiccz3vrmgg3musuwuph7ff6vvhetmfyrbfvxdxr42akyam5ftwome"
+        }
+      ]
+    },
+    {
+      "name": "SMACS 0723 Deep Field",
+      "object": "SMACS J0723.3-7327",
+      "type": "Galaxy cluster",
+      "program_id": 2736,
+      "files": [
+        {
+          "filter": "F770W",
+          "wavelength_um": 7.7,
+          "filename": "hlsp_jwst-ero_jwst_miri_smacs0723_f770w_v1_i2d.fits",
+          "size_bytes": 36700160,
+          "cid": "bafybeibmwnqwtxelsnriu7yaiquphcoooroei3yhjpas7mfvz7kubp62d4",
+          "gateway": "https://ipfs.io/ipfs/bafybeibmwnqwtxelsnriu7yaiquphcoooroei3yhjpas7mfvz7kubp62d4"
+        },
+        {
+          "filter": "F1000W",
+          "wavelength_um": 10.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_smacs0723_f1000w_v1_i2d.fits",
+          "size_bytes": 36700160,
+          "cid": "bafybeihrbmau2teuchasxcqlhgm4gewm7e4dt22v54e4bnz4re4uyjnqam",
+          "gateway": "https://ipfs.io/ipfs/bafybeihrbmau2teuchasxcqlhgm4gewm7e4dt22v54e4bnz4re4uyjnqam"
+        },
+        {
+          "filter": "F1500W",
+          "wavelength_um": 15.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_smacs0723_f1500w_v1_i2d.fits",
+          "size_bytes": 36700160,
+          "cid": "bafybeibwaxon4faep6pcnfovyfyilm5hva2mqxx6vcwjijx7tewqbtglly",
+          "gateway": "https://ipfs.io/ipfs/bafybeibwaxon4faep6pcnfovyfyilm5hva2mqxx6vcwjijx7tewqbtglly"
+        },
+        {
+          "filter": "F1800W",
+          "wavelength_um": 18.0,
+          "filename": "hlsp_jwst-ero_jwst_miri_smacs0723_f1800w_v1_i2d.fits",
+          "size_bytes": 36700160,
+          "cid": "bafybeif2bw3ai2emzwhjhbtwogj6jychugfimul6m5qnni3vhcy73ultjy",
+          "gateway": "https://ipfs.io/ipfs/bafybeif2bw3ai2emzwhjhbtwogj6jychugfimul6m5qnni3vhcy73ultjy"
+        }
+      ]
+    }
+  ]
+}
